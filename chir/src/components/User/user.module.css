@@ -1,0 +1,28 @@
+.content{
+    
+}
+
+.photo{
+    margin: 92px 102px 11px 102px ;
+    width: 96px;
+    height: 96px;
+}
+
+.nameUser{
+    width: 168px;
+    height: 21px;
+
+    /* font-family: 'Roboto'; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    text-align: center;
+
+    margin-left: 62px;
+    margin-right: 60px;
+    margin-bottom: 88px;
+
+    color: #0D1C2E;
+}
