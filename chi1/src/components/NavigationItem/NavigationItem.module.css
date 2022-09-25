@@ -1,0 +1,49 @@
+.item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    gap: 20px;
+
+    color: #707C97;
+}
+
+.itemActive{
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    gap: 20px;
+
+    color: #2A8BF2;
+}
+
+.itemActive::before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    left: 0px;
+
+    background: #2A8BF2;
+    box-shadow: 1px 0px 10px rgba(42, 139, 242, 0.45), 0px 0px 10px rgba(42, 139, 242, 0.55), 4px 0px 25px rgba(42, 139, 242, 0.75);
+    border-radius: 3px;
+}
