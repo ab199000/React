@@ -7,8 +7,7 @@ import styles from "./NavigationItem.module.css"
 function NavigationItam ({href, label, icon}) {
     return (
         <NavLink to ={href} 
-        className = {({isActive}) => isActive ? styles.itemActive : styles.item}
-        >
+        className = {({isActive}) => isActive ? styles.itemActive : styles.item}>
             <img src={icon}/> {label}
         </NavLink>
     )
